@@ -9,13 +9,13 @@
     width: 100px;
     border-radius: 20px;
     color: #7dc8c8;
-    border: 2px solid #7dc8c8;
+    border: 2px solid #7ecaca;
     background-color: #fff;
 }
 
 .btn-add {
     width: 40px;
-    background-color: #00d1b2;
+    background-color: #8fd8cd;
     color: #fff;
     border-radius: 50%;
     border: none;
@@ -23,8 +23,8 @@
 
 .btn-primary {
     width: 150px;
-    background-color: #2b78e4;
-    color: #fff;
+    background-color: #3177d9;
+    color: #fcfcfc;
     border: 2px solid #000;
     box-shadow: 3px 3px black;
 }
