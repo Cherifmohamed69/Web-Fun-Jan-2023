@@ -1,0 +1,53 @@
+.center {
+color: rgb(40, 38, 63);
+text-align: center;
+font-size: 40px;
+}
+body{
+    background-color: rgb(232, 252, 251);
+}
+.container{
+    background-color: rgb(156, 230, 230);
+    width: 950px;
+    height: 250px;
+    border: 300px;
+    display: flex;
+    margin-left: 150px;
+}
+#dojo {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    margin-left: 150px;
+}
+.container2 {
+background-color: rgb(219, 143, 212);
+width: 950px;
+height: 250px;
+border: 300px;
+display: flex;
+margin-left: 150px;
+}
+#dojo2{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    margin-left: 250px;
+}
+.container3 {
+    background-color: rgb(0, 0, 0);
+    width: 950px;
+    height: 250px;
+    border: 300px;
+    display: flex;
+    margin-left: 150px;
+    }
+    #dojo3{
+        width: 500px;
+        height: 200px;
+        padding: 20px;
+        display: flex;
+        margin-left: 150px;
+    }
