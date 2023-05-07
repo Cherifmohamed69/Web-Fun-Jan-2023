@@ -1,0 +1,48 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding: 30px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    height: 300px;
+    width: 700px;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .location {
+    font-size: 14px;
+    margin: 0;
+  }
+  .description {
+    font-size: 18px;
+    margin: 0;
+  }
+  a.link {
+    color: blue;
+    text-decoration-line: underline;
+    font-weight: bold;
+
+  }
+  .aligne{
+    display: flex;
+    align-items: center;
+    
+  }
+  .textimg{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+ 
