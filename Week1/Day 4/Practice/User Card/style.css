@@ -1,118 +1,126 @@
-
-
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-/* styles to apply to body */
 
 body {
-  background-color: #f3f3f3;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.name {
-  width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+
+
+
+li {
+    margin: 10px;
+    list-style-type: none;
+    
 }
 
-.user-card {
-  width: 100%;
-  background-color: #fff;
-  border: 2px solid #919191;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  overflow: hidden;
-margin-left: 250px;
-margin-top: 30px;}
+.active {
+    font-weight: bold;
+}
 
-.card-body {
-  padding: 20px;
+.btn {
+    background-color: rgb(1, 204, 204);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+    border: 3px black solid;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.main-content {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+
+
+.left-side-bar,
+.right-side-bar {
+    margin: 50px;
+}
+
+
+
+.left-side-bar {
+    width: 600px;
+}
+
+.main-profile,
+.education,
+.connection-request,
+.your-connections {
+    border: #d3d3d3 3px solid;
+}
+
+.main-profile {
+    margin-bottom: 30px;
+}
+
+
+.profile-header {
+    background-color: #17a2b8;
+    height: 100px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   
+    background-position: center center;
+    background-size: cover;
+
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    border: white 4px solid;
+}
+#image9 {  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
 }
 
 
-
-.avatar-m {
-  border-radius: 50%;
-  background-color: #fff;
-  height: 190px;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 20px;
+.profile-body {
+    padding-top: 50px;
+    padding-left: 20px;
 }
 
-
-
-.map{
-  display: flex;
-  align-items: center;
-}
-.map img {
-  flex-shrink: 0;
-  width: 20px;
-  height: 20px;
-  margin-right: 20px;
-  
-}.user-card {
-  display: flex;
-  flex-direction: column;
-  align-items: first baseline;
-  padding: 30px;
-  border: 3px solid #ccc;
-  border-radius: 10px;
-  height: 300px;
-  width: 700px;
-  font-size: 1.2rem;
-}
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}  
-.user-card h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-  text-align: start;
-  font-style: ;
-
-}
 .location {
-  font-size: 14px;
-  margin: 0;
-}
-.description {
-  font-size: 18px;
-  margin: 0;
-}
-a.link {
-  color: blue;
-  text-decoration-line: underline;
-  font-weight: bold;
-
-}
-.aligne{
-  display: flex;
-  align-items: center;
-  
-}
-.textimg{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
 }
 
-.card-header {
-  background-color: #69adb9;
-  height: 200px;
-  width: 950px;
-  margin-bottom: 70px;
-  
+.control {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.location img,
+.control img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.control a {
+    color: #2B78E4;
+ }
