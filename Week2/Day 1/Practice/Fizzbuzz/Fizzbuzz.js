@@ -1,4 +1,3 @@
-
 // solution 1
 
 var index = 1;
@@ -39,4 +38,3 @@ for (var index2 = 1 ; index2 <101; index2++) {
     }
     
 }
-
