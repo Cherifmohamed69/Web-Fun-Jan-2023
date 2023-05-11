@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 4px;
+}
+.container{
+
+    border: solid black;
+    width: 450px;
+    margin: 50px;
+    
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    width: 100%;
+}
+.btn {
+    color: black;
+    background: #f1a814e7;
+    padding: 5px;
+    width: 70px;
+ }
+.container2 {
+font-size: 20px;
+display: inline;
